@@ -1,7 +1,6 @@
-const { autenticarLogar } = require('../controllers/AutenticacaoLoginController'); // Substitua pelo caminho correto do seu arquivo
+const { autenticarLogar } = require('../controllers/AutenticacaoLoginController'); 
 
 // npm install --save-dev jest
-// jest autenticacaoLogar.test.js
 // npm test
 
 describe('autenticarLogar', () => {
