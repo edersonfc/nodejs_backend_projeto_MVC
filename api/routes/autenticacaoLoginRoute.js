@@ -12,7 +12,7 @@ const verificaTokenJWT = expressJwt({ secret: segredoJWT, algorithms: ['HS256'] 
 
 const router = Router()
 
-router.get('/criarlogin', verificaTokenJWT, AutenticacaoLoginController.criaLogin)
+router.post('/criarlogin', verificaTokenJWT, AutenticacaoLoginController.criaLogin)
 router.get('/autenticacao', AutenticacaoLoginController.autenticarLogar)
 
 module.exports = router
